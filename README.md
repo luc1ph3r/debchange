@@ -1,4 +1,3 @@
-debchange
-=========
+### debchange
 
-edit a debian changelog and creates new entry. Same as devscripts' debchange for people who can't have it (i.e on OSX)
+Edits a debian changelog and creates a new entry. Same as devscripts' debchange for people who can't have it (e.g. on macOS)
