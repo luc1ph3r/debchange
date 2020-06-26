@@ -1,3 +1,10 @@
+debchange.py (1:1.0) unstable; urgency=medium
+
+  * Upgrade to Python3 and optimize
+  * Update changelog using this very tool
+
+ -- Lucifer <electrocartridge@gmail.com>  Fri, 26 Jun 2020 03:03:37 +0300
+
 debchange.py (1:0.9) unstable; urgency=medium
 
   * Fork the original debchange from prfalken/debchange
