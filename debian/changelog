@@ -1,3 +1,9 @@
+debchange.py (1:1.1) unstable; urgency=medium
+
+  * Fix an error msg (a00e1dc41a2);
+
+ -- Lucifer <electrocartridge@gmail.com>  Fri, 26 Jun 2020 03:12:44 +0300
+
 debchange.py (1:1.0) unstable; urgency=medium
 
   * Upgrade to Python3 and optimize
