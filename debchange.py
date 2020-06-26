@@ -19,13 +19,12 @@ ENTRY_TEMPLATE = """%(pkg_name)s (%(pkg_version)s) %(pkg_distrib)s; %(pkg_urgenc
 
 
 def read_changelog():
-    # read changelog file
     if os.path.exists('debian/changelog'):
         with open('debian/changelog') as f:
             changelog_content = f.read()
     else:
         print(
-            f'You must run {sys.argv[1]} in a source package'
+            f'You must run {sys.argv[0].split("/")[-1]} in a source package'
             ' containing debian/changelog',
             file=sys.stderr
         )
